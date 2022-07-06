@@ -1,0 +1,10 @@
+extends layout
+
+block body
+    h1 Login
+    form(method="post")
+        label(for="email") E-mail
+        input#email(type="email", name="email", placeholder="E-mail")
+        label(for="senha") Senha
+        input#senha(type="password", name="senha", placeholder="Senha")
+        input(type="submit", value="logar", name="Logar")
