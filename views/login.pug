@@ -2,7 +2,7 @@ extends layout
 
 block body
     h1 Login
-    form(method="post")
+    form(method="post", action="/login")
         label(for="email") E-mail
         input#email(type="email", name="email", placeholder="E-mail")
         label(for="senha") Senha
